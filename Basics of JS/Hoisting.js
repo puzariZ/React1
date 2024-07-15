@@ -15,7 +15,7 @@
 //     console.log("Namaste Javascript");
 // }
 
-// another function
+// another function / function expression
 // var getName = function () {
 //     console.log("Namaste Javascript");
 // }
@@ -56,7 +56,7 @@
 //console.log(x);
 
 
-// Temporal dead zone of "let & const"
+// Temporal dead zone of "let & const" / Script scope
 // console.log(x);
 // // console.log(y);
 // var x;
@@ -216,18 +216,18 @@
 
 // Example 4
 // Let's Try it with "var" only
-function X(){
-    for(var i = 1; i<=5; i++){  // 
-        function close(i){   // Now everytime i will be called it will point to new reference.
-            setTimeout( ()=>{
-                console.log(i);
-            },i * 1000);
-        }
-        close(i);
-    }
-    console.log("Namaste Doston")
-}
-X()
+// function X(){
+//     for(var i = 1; i<=5; i++){  // 
+//         function close(i){   // Now everytime i will be called it will point to new reference.
+//             setTimeout( ()=>{
+//                 console.log(i);
+//             },i * 1000);
+//         }
+//         close(i);
+//     }
+//     console.log("Namaste Doston")
+// }
+// X()
 
 
 //** JS Interview feat. Closures */
